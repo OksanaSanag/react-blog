@@ -17,12 +17,9 @@ export default class Feed extends Component {
         } = this.props;
         return (
             <feedDecor.feedBlock>
-                < StatusBar { ...this.props } />
-                < Composer 
-                    avatar = {avatar}
-                    currentUserFirstName = { currentUserFirstName }
-                />
-                < Posts { ...this.props } />
+                < StatusBar />
+                < Composer />
+                < Posts />
             </feedDecor.feedBlock>
         );
     }
