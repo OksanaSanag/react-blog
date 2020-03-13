@@ -24,8 +24,7 @@ export default {
         margin: 10px;
     `,
 
-    time: styled.time `
-    
+    time: styled.time `    
         color: rgb(141, 6, 182);
         font-size: 14px;
         font-weight: 600;
